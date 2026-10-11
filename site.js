@@ -71,7 +71,7 @@ document.addEventListener("click", (event) => {
 
 document.querySelectorAll("[data-copy]").forEach((button) => {
   button.addEventListener("click", async () => {
-    const value = button.getAttribute("data-copy") || "0xcomingsoon";
+    const value = button.getAttribute("data-copy") || "0xa6b4be1f75af4f09c8d25a46a322109036a6da9b";
     let ok = false;
     try {
       await navigator.clipboard.writeText(value);
