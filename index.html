@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Influence: your influence has value.</title>
+  <meta name="description" content="Your influence has value. Points are your share of the airdrop. Contract 0xcomingsoon on Robinhood Chain.">
+  <link rel="icon" href="logo-head-128.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&family=Michroma&family=Mr+Dafoe&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <canvas id="field" aria-hidden="true"></canvas>
+  <div class="page">
+    <header class="wrap bar">
+      <a class="brand" href="index.html" aria-label="Influence - home">
+        <img src="logo-head-128.png" alt="" width="36" height="36">
+        <span class="script brand-script">Influence</span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a class="nav-link desktop" href="leaderboard.html">Leaderboard</a>
+        <a class="btn-outline desktop" href="https://x.com/Influence_rh" target="_blank" rel="noopener">Connect X</a>
+        <details class="menu">
+          <summary>Menu
+            <svg viewBox="0 0 12 12" width="12" height="12" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M1 3h10M1 6h10M1 9h10"/></svg>
+          </summary>
+          <div class="menu-panel">
+            <a href="index.html">Home</a>
+            <a href="leaderboard.html">Leaderboard</a>
+            <a href="tasks.html">Tasks</a>
+            <a href="battles.html">Battles</a>
+            <a href="docs.html">Docs</a>
+            <a href="about.html">How it works</a>
+            <a href="https://dexscreener.com/robinhood" target="_blank" rel="noopener">Dexscreener</a>
+            <a href="https://x.com/Influence_rh" target="_blank" rel="noopener">Connect X</a>
+          </div>
+        </details>
+      </nav>
+    </header>
+
+    <main class="wrap">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="kicker">Registration open</p>
+          <h1>
+            <span class="display">Your</span>
+            <span class="display">influence</span>
+            <span class="script hero-script">has value.</span>
+          </h1>
+          <svg class="scribble" viewBox="0 0 300 26" preserveAspectRatio="none" aria-hidden="true">
+            <path class="pen" pathLength="1" d="M4 17 C 48 7, 108 5, 168 10 S 262 17, 296 6 C 268 15, 214 21, 150 20 S 72 20, 38 24"/>
+          </svg>
+          <div class="actions">
+            <a class="btn-lime" href="https://x.com/Influence_rh" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true" fill="currentColor"><path d="M18.2 2H21l-6.5 7.4L22 22h-6.8l-4.3-6.6L6 22H3.2l7-8L2 2h7l3.9 6.1L18.2 2Zm-1.2 18h1.8L7.1 3.9H5.2L17 20Z"/></svg>
+              Connect X
+            </a>
+            <a class="btn-dark" href="leaderboard.html">View leaderboard</a>
+            <a class="btn-dark" href="https://dexscreener.com/robinhood" target="_blank" rel="noopener">Dexscreener</a>
+          </div>
+          <p class="lede">
+            The reward is the airdrop. Your points are your share. Top 500 at snapshot mint a Genesis Pass.
+            <a href="docs.html">Read the docs</a>
+          </p>
+          <div class="ca-row">
+            <span class="kicker">CA</span>
+            <code>0xcomingsoon</code>
+            <button class="copy-btn" type="button" data-copy="0xcomingsoon">Copy</button>
+          </div>
+        </div>
+
+        <article class="card" aria-label="Blank influence card">
+          <div class="card-inner">
+            <header class="card-top">
+              <img class="bust" src="logo-head.png" alt="">
+              <div>
+                <h2 class="word">Influence</h2>
+                <p class="tagline">Real people. Real reach. Real influence.</p>
+              </div>
+              <div class="rank">
+                <p class="kicker">Global rank</p>
+                <p class="rank-num">#0</p>
+                <span class="member">Member #0000</span>
+                <span class="spark">Spark</span>
+              </div>
+            </header>
+
+            <div class="rule"></div>
+            <p class="value-label">
+              <svg viewBox="0 0 12 12" width="12" height="12" aria-hidden="true" fill="none" stroke="#ccff00" stroke-width="1.4"><path d="M6 1v10M1 6h10"/></svg>
+              Estimated influence value
+            </p>
+            <div class="money-wrap">
+              <p class="money money-ghost" aria-hidden="true">$?,???</p>
+              <p class="money">$?,???</p>
+            </div>
+            <p class="pts-line">
+              <svg viewBox="0 0 12 12" width="12" height="12" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="6" cy="6" r="4.2"/></svg>
+              0 Influence pts
+            </p>
+
+            <div class="rule"></div>
+            <div class="stat">
+              <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="6" cy="5" r="2"/><path d="M2.5 13c.4-2 1.8-3 3.5-3s3.1 1 3.5 3"/><circle cx="11.2" cy="5.5" r="1.5"/><path d="M11 8.2c1.5.2 2.6 1.2 3 2.8"/></svg>
+              <span>Followers</span><span class="ticks"></span><span class="na">n/a</span>
+            </div>
+            <div class="stat">
+              <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M8 13s-4.5-2.7-4.5-6A2.5 2.5 0 0 1 8 5.2 2.5 2.5 0 0 1 12.5 7C12.5 10.3 8 13 8 13Z"/></svg>
+              <span>Engagement</span><span class="ticks"></span><span class="na">n/a</span>
+            </div>
+            <div class="stat">
+              <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M9 1.5 4 9h4l-1 5.5L12 7H8l1-5.5Z"/></svg>
+              <span>Activity</span><span class="ticks"></span><span class="na">n/a</span>
+            </div>
+            <div class="stat">
+              <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="2.5" y="3.5" width="11" height="10" rx="1"/><path d="M2.5 6.5h11M5.5 2.5v2M10.5 2.5v2"/></svg>
+              <span>Account age</span><span class="ticks"></span><span class="na">n/a</span>
+            </div>
+
+            <div class="rule"></div>
+            <footer class="who">
+              <span class="qmark">?</span>
+              <span>
+                <span class="script name-script">Your name</span>
+                <span class="handle">@you</span>
+              </span>
+            </footer>
+            <div class="card-bottom">
+              <p class="quote">“Influence is a currency. Use it wisely.”</p>
+              <a class="share" href="https://x.com/intent/tweet?text=Your%20influence%20has%20value.%0ACA%3A%200xcomingsoon&url=https%3A%2F%2Fx.com%2FInfluence_rh" target="_blank" rel="noopener">
+                <span class="share-ico" aria-hidden="true">
+                  <svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor"><path d="M9 1.5 4 9h4l-1 5.5L12 7H8l1-5.5Z"/></svg>
+                </span>
+                <span>Share your influence card on X</span>
+              </a>
+            </div>
+            <a class="card-site" href="https://x.com/Influence_rh" target="_blank" rel="noopener">
+              <svg viewBox="0 0 12 12" width="12" height="12" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.3"><rect x="1" y="1" width="4" height="4"/><rect x="7" y="1" width="4" height="4"/><rect x="1" y="7" width="4" height="4"/><rect x="7" y="7" width="4" height="4"/></svg>
+              x.com/Influence_rh
+            </a>
+          </div>
+        </article>
+      </section>
+
+      <section class="panel accent genesis" id="genesis">
+        <div>
+          <p class="kicker">Early access</p>
+          <h2 class="script section-script">Genesis Pass</h2>
+          <p class="body">500 passes, never more. The top 500 accounts by points at the snapshot mint one for free on Robinhood Chain. A Genesis Pass marks a founding member of Influence; what it unlocks is announced at token launch.</p>
+        </div>
+        <div class="metric">
+          <p class="kicker mute">Passes</p>
+          <strong>500</strong>
+          <span>free mint</span>
+        </div>
+        <div class="metric">
+          <p class="kicker mute">Qualify</p>
+          <strong>Top<br>500</strong>
+          <span>by points at snapshot</span>
+        </div>
+        <a class="btn-dark qualify-btn" href="docs.html#genesis">How to qualify</a>
+      </section>
+
+      <section class="panel battle">
+        <div>
+          <span class="pill">New</span>
+          <h2 class="script section-script">Influence Battles</h2>
+          <p class="body">Call anyone out. One theme, one post each, 24 hours. Engagement rate decides, so a 2k account can beat a 200k one. Stake your points; winner takes the pot.</p>
+        </div>
+        <div class="actions" style="margin-top:0">
+          <a class="btn-lime" href="battles.html">Start a battle</a>
+          <a class="btn-dark" href="docs.html#battles">How battles work</a>
+        </div>
+      </section>
+
+      <section class="panel" id="board">
+        <div class="board-head">
+          <h2 class="script section-script">Top of the board</h2>
+          <div class="reg">
+            <p class="kicker mute">Registered</p>
+            <strong>1,494</strong>
+          </div>
+        </div>
+        <table class="board">
+          <thead>
+            <tr>
+              <th>Rank</th>
+              <th>X username</th>
+              <th class="right">Influence value</th>
+              <th class="right">Points</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="num">1</td>
+              <td><a class="user" href="https://x.com/mickeymrdt" target="_blank" rel="noopener"><img src="https://pbs.twimg.com/profile_images/1570670557775155205/rhpM7rQW_400x400.jpg" alt=""><span>@mickeymrdt</span></a></td>
+              <td class="right">$10,198</td>
+              <td><div class="pts"><span class="barline"><i style="--w:100%"></i></span><b>27,779</b></div></td>
+            </tr>
+            <tr>
+              <td class="num">2</td>
+              <td><a class="user" href="https://x.com/mahan_airdrops" target="_blank" rel="noopener"><img src="https://pbs.twimg.com/profile_images/2095621481967575041/04yHVIo1_400x400.jpg" alt=""><span>@mahan_airdrops</span></a></td>
+              <td class="right">$9,463</td>
+              <td><div class="pts"><span class="barline"><i style="--w:99.7%"></i></span><b>27,709</b></div></td>
+            </tr>
+            <tr>
+              <td class="num">3</td>
+              <td><a class="user" href="https://x.com/PeterTran_CT" target="_blank" rel="noopener"><img src="https://pbs.twimg.com/profile_images/2045308671442472960/u0886YHx_400x400.jpg" alt=""><span>@PeterTran_CT</span></a></td>
+              <td class="right">$16,268</td>
+              <td><div class="pts"><span class="barline"><i style="--w:99%"></i></span><b>27,497</b></div></td>
+            </tr>
+            <tr>
+              <td class="num">4</td>
+              <td><a class="user" href="https://x.com/chanhdoro" target="_blank" rel="noopener"><img src="https://pbs.twimg.com/profile_images/2093890663096156160/WJmrbZ1P_400x400.jpg" alt=""><span>@chanhdoro</span></a></td>
+              <td class="right">$6,542</td>
+              <td><div class="pts"><span class="barline"><i style="--w:96.2%"></i></span><b>26,732</b></div></td>
+            </tr>
+            <tr>
+              <td class="num">5</td>
+              <td><a class="user" href="https://x.com/CryptoStarLigh1" target="_blank" rel="noopener"><img src="https://pbs.twimg.com/profile_images/2095607539010285568/rlapZFm-_400x400.jpg" alt=""><span>@CryptoStarLigh1</span></a></td>
+              <td class="right">$3,586</td>
+              <td><div class="pts"><span class="barline"><i style="--w:94.2%"></i></span><b>26,160</b></div></td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="board-foot">
+          <p>Complete tasks, earn more points, rank up. <strong>Bigger share of the airdrop.</strong></p>
+          <a class="btn-lime" href="tasks.html">Today's tasks</a>
+        </div>
+        <a class="center-link" href="leaderboard.html">See the full leaderboard</a>
+      </section>
+    </main>
+
+    <footer class="wrap foot">
+      <p class="foot-row">
+        <span>Values are estimates, not market prices</span>
+        <span class="dot">·</span>
+        <a href="about.html">How it works</a>
+        <span class="dot">·</span>
+        <span>CA 0xcomingsoon</span>
+        <span class="dot">·</span>
+        <a href="https://x.com/Influence_rh" target="_blank" rel="noopener">X</a>
+        <span class="dot">·</span>
+        <a href="https://dexscreener.com/robinhood" target="_blank" rel="noopener">Dexscreener</a>
+      </p>
+    </footer>
+  </div>
+  <script src="site.js"></script>
+</body>
+</html>

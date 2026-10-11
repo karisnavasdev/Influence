@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tasks · Influence</title>
+  <link rel="icon" href="logo-head-128.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&family=Michroma&family=Mr+Dafoe&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <canvas id="field" aria-hidden="true"></canvas>
+  <div class="page">
+    <header class="wrap bar">
+      <a class="brand" href="index.html" aria-label="Influence - home">
+        <img src="logo-head-128.png" alt="" width="36" height="36">
+        <span class="script brand-script">Influence</span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a class="nav-link desktop" href="leaderboard.html">Leaderboard</a>
+        <a class="btn-outline desktop" href="https://x.com/Influence_rh" target="_blank" rel="noopener">Connect X</a>
+        <details class="menu">
+          <summary>Menu
+            <svg viewBox="0 0 12 12" width="12" height="12" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M1 3h10M1 6h10M1 9h10"/></svg>
+          </summary>
+          <div class="menu-panel">
+            <a href="index.html">Home</a>
+            <a href="leaderboard.html">Leaderboard</a>
+            <a class="active" href="tasks.html">Tasks</a>
+            <a href="battles.html">Battles</a>
+            <a href="docs.html">Docs</a>
+            <a href="about.html">How it works</a>
+            <a href="https://dexscreener.com/robinhood" target="_blank" rel="noopener">Dexscreener</a>
+            <a href="https://x.com/Influence_rh" target="_blank" rel="noopener">Connect X</a>
+          </div>
+        </details>
+      </nav>
+    </header>
+    <main class="wrap">
+      <h1 class="script page-title">Tasks</h1>
+      <p class="lead narrow">The launch checklist once, then two fresh tasks every day (resets 00:00 UTC), all verified against your own X account. Nothing to paste: do it on X, press Verify. Today's theme is <a href="https://x.com/Influence_rh" target="_blank" rel="noopener" style="color:#ccff00">#InfluenceFamilySignal</a>.</p>
+      <section class="lock">
+        <p>Connect X to unlock tasks. They are checked against your own account.</p>
+        <a class="btn-lime" href="https://x.com/Influence_rh" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true" fill="currentColor"><path d="M18.2 2H21l-6.5 7.4L22 22h-6.8l-4.3-6.6L6 22H3.2l7-8L2 2h7l3.9 6.1L18.2 2Zm-1.2 18h1.8L7.1 3.9H5.2L17 20Z"/></svg>
+          Connect X
+        </a>
+      </section>
+      <section class="panel" style="margin-top:1rem;max-width:40rem">
+        <p class="kicker">Contract</p>
+        <p class="body" style="margin-top:0.45rem">CA <strong style="color:#f1f5e4">0xcomingsoon</strong>
+          <button class="copy-btn" type="button" data-copy="0xcomingsoon">Copy</button>
+        </p>
+        <div class="actions">
+          <a class="btn-dark" href="https://dexscreener.com/robinhood" target="_blank" rel="noopener">Dexscreener · Robinhood</a>
+        </div>
+      </section>
+    </main>
+    <footer class="wrap foot">
+      <p class="foot-row">
+        <span>Values are estimates, not market prices</span>
+        <span class="dot">·</span>
+        <a href="about.html">How it works</a>
+        <span class="dot">·</span>
+        <span>CA 0xcomingsoon</span>
+        <span class="dot">·</span>
+        <a href="https://x.com/Influence_rh" target="_blank" rel="noopener">X</a>
+        <span class="dot">·</span>
+        <a href="https://dexscreener.com/robinhood" target="_blank" rel="noopener">Dexscreener</a>
+      </p>
+    </footer>
+  </div>
+  <script src="site.js"></script>
+</body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Leaderboard · Influence</title>
+  <link rel="icon" href="logo-head-128.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&family=Michroma&family=Mr+Dafoe&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <canvas id="field" aria-hidden="true"></canvas>
+  <div class="page">
+    <header class="wrap bar">
+      <a class="brand" href="index.html" aria-label="Influence - home">
+        <img src="logo-head-128.png" alt="" width="36" height="36">
+        <span class="script brand-script">Influence</span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a class="nav-link desktop active" href="leaderboard.html">Leaderboard</a>
+        <a class="btn-outline desktop" href="https://x.com/Influence_rh" target="_blank" rel="noopener">Connect X</a>
+        <details class="menu">
+          <summary>Menu
+            <svg viewBox="0 0 12 12" width="12" height="12" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M1 3h10M1 6h10M1 9h10"/></svg>
+          </summary>
+          <div class="menu-panel">
+            <a href="index.html">Home</a>
+            <a class="active" href="leaderboard.html">Leaderboard</a>
+            <a href="tasks.html">Tasks</a>
+            <a href="battles.html">Battles</a>
+            <a href="docs.html">Docs</a>
+            <a href="about.html">How it works</a>
+            <a href="https://dexscreener.com/robinhood" target="_blank" rel="noopener">Dexscreener</a>
+            <a href="https://x.com/Influence_rh" target="_blank" rel="noopener">Connect X</a>
+          </div>
+        </details>
+      </nav>
+    </header>
+    <main class="wrap">
+      <p class="kicker" style="margin-top:1.6rem">Live board</p>
+      <h1 class="script page-title">Leaderboard</h1>
+      <p class="lead narrow">Ranked by Influence Points. At the snapshot, points are the share of the airdrop. Top 500 mint a Genesis Pass on Robinhood Chain.</p>
+      <section class="panel">
+        <div class="board-head">
+          <div>
+            <p class="kicker">Contract</p>
+            <p class="body" style="margin-top:0.35rem">CA <strong style="color:#f1f5e4">0xcomingsoon</strong></p>
+          </div>
+          <a class="btn-outline" href="https://dexscreener.com/robinhood" target="_blank" rel="noopener">Dexscreener</a>
+        </div>
+      </section>
+      <section class="panel">
+        <div class="board-head">
+          <h2 class="script section-script">Top of the board</h2>
+          <div class="reg">
+            <p class="kicker mute">Registered</p>
+            <strong>1,494</strong>
+          </div>
+        </div>
+        <table class="board">
+          <thead>
+            <tr>
+              <th>Rank</th>
+              <th>X username</th>
+              <th class="right">Influence value</th>
+              <th class="right">Points</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="num">1</td>
+              <td><a class="user" href="https://x.com/mickeymrdt" target="_blank" rel="noopener"><img src="https://pbs.twimg.com/profile_images/1570670557775155205/rhpM7rQW_400x400.jpg" alt=""><span>@mickeymrdt</span></a></td>
+              <td class="right">$10,198</td>
+              <td><div class="pts"><span class="barline"><i style="--w:100%"></i></span><b>27,779</b></div></td>
+            </tr>
+            <tr>
+              <td class="num">2</td>
+              <td><a class="user" href="https://x.com/mahan_airdrops" target="_blank" rel="noopener"><img src="https://pbs.twimg.com/profile_images/2095621481967575041/04yHVIo1_400x400.jpg" alt=""><span>@mahan_airdrops</span></a></td>
+              <td class="right">$9,463</td>
+              <td><div class="pts"><span class="barline"><i style="--w:99.7%"></i></span><b>27,709</b></div></td>
+            </tr>
+            <tr>
+              <td class="num">3</td>
+              <td><a class="user" href="https://x.com/PeterTran_CT" target="_blank" rel="noopener"><img src="https://pbs.twimg.com/profile_images/2045308671442472960/u0886YHx_400x400.jpg" alt=""><span>@PeterTran_CT</span></a></td>
+              <td class="right">$16,268</td>
+              <td><div class="pts"><span class="barline"><i style="--w:99%"></i></span><b>27,497</b></div></td>
+            </tr>
+            <tr>
+              <td class="num">4</td>
+              <td><a class="user" href="https://x.com/chanhdoro" target="_blank" rel="noopener"><img src="https://pbs.twimg.com/profile_images/2093890663096156160/WJmrbZ1P_400x400.jpg" alt=""><span>@chanhdoro</span></a></td>
+              <td class="right">$6,542</td>
+              <td><div class="pts"><span class="barline"><i style="--w:96.2%"></i></span><b>26,732</b></div></td>
+            </tr>
+            <tr>
+              <td class="num">5</td>
+              <td><a class="user" href="https://x.com/CryptoStarLigh1" target="_blank" rel="noopener"><img src="https://pbs.twimg.com/profile_images/2095607539010285568/rlapZFm-_400x400.jpg" alt=""><span>@CryptoStarLigh1</span></a></td>
+              <td class="right">$3,586</td>
+              <td><div class="pts"><span class="barline"><i style="--w:94.2%"></i></span><b>26,160</b></div></td>
+            </tr>
+          </tbody>
+        </table>
+        <p class="lead" style="margin:1rem 0 0">Showing the public top five. Connect X to climb.</p>
+      </section>
+    </main>
+    <footer class="wrap foot">
+      <p class="foot-row">
+        <span>Values are estimates, not market prices</span>
+        <span class="dot">·</span>
+        <a href="about.html">How it works</a>
+        <span class="dot">·</span>
+        <span>CA 0xcomingsoon</span>
+        <span class="dot">·</span>
+        <a href="https://x.com/Influence_rh" target="_blank" rel="noopener">X</a>
+        <span class="dot">·</span>
+        <a href="https://dexscreener.com/robinhood" target="_blank" rel="noopener">Dexscreener</a>
+      </p>
+    </footer>
+  </div>
+  <script src="site.js"></script>
+</body>
+</html>

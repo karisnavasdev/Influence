@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Battles · Influence</title>
+  <link rel="icon" href="logo-head-128.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&family=Michroma&family=Mr+Dafoe&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <canvas id="field" aria-hidden="true"></canvas>
+  <div class="page">
+    <header class="wrap bar">
+      <a class="brand" href="index.html" aria-label="Influence - home">
+        <img src="logo-head-128.png" alt="" width="36" height="36">
+        <span class="script brand-script">Influence</span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a class="nav-link desktop" href="leaderboard.html">Leaderboard</a>
+        <a class="btn-outline desktop" href="https://x.com/Influence_rh" target="_blank" rel="noopener">Connect X</a>
+        <details class="menu">
+          <summary>Menu
+            <svg viewBox="0 0 12 12" width="12" height="12" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M1 3h10M1 6h10M1 9h10"/></svg>
+          </summary>
+          <div class="menu-panel">
+            <a href="index.html">Home</a>
+            <a href="leaderboard.html">Leaderboard</a>
+            <a href="tasks.html">Tasks</a>
+            <a href="battles.html" class="active">Battles</a>
+            <a href="docs.html">Docs</a>
+            <a href="about.html">How it works</a>
+            <a href="https://dexscreener.com/robinhood" target="_blank" rel="noopener">Dexscreener</a>
+            <a href="https://x.com/Influence_rh" target="_blank" rel="noopener">Connect X</a>
+          </div>
+        </details>
+      </nav>
+    </header>
+    <main class="wrap">
+      <p class="kicker" style="margin-top:1.5rem">New</p>
+      <h1 class="script page-title">Influence Battles</h1>
+      <p class="lead narrow">Call anyone out. One theme, one post each, 24 hours. Engagement rate decides, so a 2k account can beat a 200k one. Stake your points; winner takes the pot.</p>
+      <div class="actions" style="margin-bottom:1.2rem">
+        <a class="btn-lime" href="https://x.com/Influence_rh" target="_blank" rel="noopener">Connect X to battle</a>
+        <a class="btn-dark" href="docs.html#battles">How battles work</a>
+        <a class="btn-dark" href="https://dexscreener.com/robinhood" target="_blank" rel="noopener">Dexscreener</a>
+      </div>
+      <section class="doc" id="rules">
+        <p class="kicker">The round</p>
+        <h2>Two accounts. One theme. One post each.</h2>
+        <ol class="steps">
+          <li><strong>01</strong><span>Challenge anyone by username, or post an open challenge. Stake from 100 points, or play a friendly battle with no stake.</span></li>
+          <li><strong>02</strong><span>When the other side accepts, both of you have 24 hours to publish one original post on the theme.</span></li>
+          <li><strong>03</strong><span>Score is engagement divided by followers. A smaller account that gets people talking can beat a larger one.</span></li>
+          <li><strong>04</strong><span>Winner takes the pot minus a 5% treasury fee. No post means forfeit. A draw returns both stakes.</span></li>
+          <li><strong>05</strong><span>Spectators can back a side while the window is open. Winning backers share the losing pool.</span></li>
+        </ol>
+      </section>
+      <section class="panel" style="max-width:46rem">
+        <p class="kicker">Contract</p>
+        <p class="body" style="margin-top:0.4rem">CA <strong style="color:#f1f5e4">0xcomingsoon</strong> on Robinhood Chain.
+          <button class="copy-btn" type="button" data-copy="0xcomingsoon">Copy</button>
+        </p>
+      </section>
+    </main>
+    <footer class="wrap foot">
+      <p class="foot-row">
+        <span>Values are estimates, not market prices</span>
+        <span class="dot">·</span>
+        <a href="about.html">How it works</a>
+        <span class="dot">·</span>
+        <span>CA 0xcomingsoon</span>
+        <span class="dot">·</span>
+        <a href="https://x.com/Influence_rh" target="_blank" rel="noopener">X</a>
+        <span class="dot">·</span>
+        <a href="https://dexscreener.com/robinhood" target="_blank" rel="noopener">Dexscreener</a>
+      </p>
+    </footer>
+  </div>
+  <script src="site.js"></script>
+</body>
+</html>

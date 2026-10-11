@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Docs · Influence</title>
+  <link rel="icon" href="logo-head-128.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&family=Michroma&family=Mr+Dafoe&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <canvas id="field" aria-hidden="true"></canvas>
+  <div class="page">
+    <header class="wrap bar">
+      <a class="brand" href="index.html" aria-label="Influence - home">
+        <img src="logo-head-128.png" alt="" width="36" height="36">
+        <span class="script brand-script">Influence</span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a class="nav-link desktop" href="leaderboard.html">Leaderboard</a>
+        <a class="btn-outline desktop" href="https://x.com/Influence_rh" target="_blank" rel="noopener">Connect X</a>
+        <details class="menu">
+          <summary>Menu
+            <svg viewBox="0 0 12 12" width="12" height="12" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M1 3h10M1 6h10M1 9h10"/></svg>
+          </summary>
+          <div class="menu-panel">
+            <a href="index.html">Home</a>
+            <a href="leaderboard.html">Leaderboard</a>
+            <a href="tasks.html">Tasks</a>
+            <a href="battles.html">Battles</a>
+            <a class="active" href="docs.html">Docs</a>
+            <a href="about.html">How it works</a>
+            <a href="https://dexscreener.com/robinhood" target="_blank" rel="noopener">Dexscreener</a>
+            <a href="https://x.com/Influence_rh" target="_blank" rel="noopener">Connect X</a>
+          </div>
+        </details>
+      </nav>
+    </header>
+    <main class="wrap narrow">
+      <h1 class="script page-title">Docs</h1>
+      <p class="lead">Everything about Influence in plain words. Short version: your X influence is scored, the score and your actions become points, and the points become your share of the airdrop.</p>
+
+      <article class="doc" id="reward">
+        <p class="kicker">The reward</p>
+        <h2>The reward is the airdrop.</h2>
+        <p>Everything you earn on Influence is Influence Points. At the snapshot, the token airdrop is split among all registered accounts in proportion to their points: twice the points, twice the share. Points are the only input. There is no whitelist, no private allocation and no manual adjustment.</p>
+        <p>Not announced yet: the total token amount, the snapshot date and the claim mechanics. They will be posted here and on <a href="https://x.com/Influence_rh" target="_blank" rel="noopener" style="color:#ccff00">@Influence_rh</a> before the snapshot. Until then, points have no monetary value and no specific token amount is promised.</p>
+      </article>
+
+      <article class="doc" id="genesis">
+        <p class="kicker">Genesis Pass</p>
+        <h2>500 passes. The top 500 at snapshot mint free.</h2>
+        <p>The Genesis Pass is an NFT on Robinhood Chain, limited to 500, minted once and never again. At the snapshot, the 500 accounts with the most Influence Points qualify to mint one, free, with their linked wallet. One pass per account. Nothing is sold.</p>
+        <p>How to qualify: connect X, finish the join checklist, invite people, complete the daily tasks, win Influence Battles. Rank 500 or better at the snapshot is the only condition.</p>
+      </article>
+
+      <article class="doc" id="chain">
+        <p class="kicker">Robinhood Chain</p>
+        <h2>Contract and chart.</h2>
+        <p>Built on Robinhood Chain. The token and the airdrop contracts live there. Contract address:</p>
+        <p><strong style="font-family:JetBrains Mono,monospace;letter-spacing:0.04em">0xcomingsoon</strong>
+          <button class="copy-btn" type="button" data-copy="0xcomingsoon">Copy</button>
+        </p>
+        <p><a class="btn-lime" href="https://dexscreener.com/robinhood" target="_blank" rel="noopener">Open Dexscreener</a></p>
+      </article>
+
+      <article class="doc" id="battles">
+        <p class="kicker">Influence Battles</p>
+        <h2>Two accounts. One theme. Engagement rate decides.</h2>
+        <p>Stake your points, post once in 24 hours, and the higher engagement rate takes the pot. A 2k account can beat a 200k one. Winner takes both stakes minus a 5% treasury fee. A draw returns both stakes.</p>
+        <p><a href="battles.html" style="color:#ccff00">Start a battle</a></p>
+      </article>
+
+      <article class="doc">
+        <p class="kicker">Disclaimer</p>
+        <h2>Estimates, not prices.</h2>
+        <p>Estimated influence value is an in-app score, not the market value of any account and not a balance. Influence Points have no monetary value. Nothing here is financial advice.</p>
+      </article>
+    </main>
+    <footer class="wrap foot">
+      <p class="foot-row">
+        <span>Values are estimates, not market prices</span>
+        <span class="dot">·</span>
+        <a href="about.html">How it works</a>
+        <span class="dot">·</span>
+        <span>CA 0xcomingsoon</span>
+        <span class="dot">·</span>
+        <a href="https://x.com/Influence_rh" target="_blank" rel="noopener">X</a>
+        <span class="dot">·</span>
+        <a href="https://dexscreener.com/robinhood" target="_blank" rel="noopener">Dexscreener</a>
+      </p>
+    </footer>
+  </div>
+  <script src="site.js"></script>
+</body>
+</html>
